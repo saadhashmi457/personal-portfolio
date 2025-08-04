@@ -1,70 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-  <header class="header">
-    <a href="#" class="logo">portfolio.</a>
-    <button class="nav-toggle" aria-label="Toggle navigation">
-      <i class="bx bx-menu"></i>
-    </button>
-    <nav class="navbar">
-      <a href="index.html" style="--i:1;" class="active">Home</a>
-      <a href="about.html" style="--i:2;">About</a>
-      <a href="skills2.html" style="--i:3;">Skills</a>
-      <a href="services.html" style="--i:4;">Services</a>
-      <a href="contact.html" style="--i:5;">Contact</a>
-    </nav>
-  </header>
 
-  <section class="home">
+   <header class="header">
+
+    <a href="#" class="logo">portfolio.</a>
+
+    <nav class="navbar">
+        <a href="index.html"  style="--i:1;" class="active">Home</a>
+        <a href="about.html" style="--i:2;"> About</a>
+        <a href="skills2.html" style="--i:3;"> Skills</a>
+        <a href="services.html" style="--i:4;"> Services</a>
+        <a href="contact.html" style="--i:5;"> Contact</a>
+    </nav>
+   </header>
+
+
+   <section class="home">
+
     <div class="home-content">
-      <h3>Hi, It's Me</h3>
-      <h1>Saad Hashmi</h1>
-      <h3>
-        I am a <span class="multiple-text"></span>
-      </h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt et
-        aperiam doloremque fuga consequuntur. Corrupti veritatis sint iusto sed
-        fugiat ducimus distinctio consequuntur eius exercitationem quam
-        repellat voluptates, et minus.
-      </p>
-      <div class="social-media">
-        <a href="#" style="--i:7;"><i class="bx bxl-facebook"></i></a>
-        <a href="#" style="--i:8;"><i class="bx bxl-instagram"></i></a>
-        <a href="#" style="--i:9;"><i class="bx bxl-twitter"></i></a>
-        <a href="#" style="--i:10;"><i class="bx bxl-whatsapp"></i></a>
-      </div>
-      <a href="#" class="btn">Download CV</a>
+        <h3>Hi It,s Me</h3>
+        <h1>Saad Hashmi</h1>
+        <h3>I am a <span class="multiple-text"></span></h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt et aperiam doloremque fuga consequuntur. Corrupti veritatis sint iusto sed fugiat ducimus distinctio consequuntur eius exercitationem quam repellat voluptates, et minus.</p>
+        <div class="social-media">
+            <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+            <a href="#" style="--i:8;"><i class='bx bxl-instagram'></i></a>
+            <a href="#" style="--i:9;"><i class='bx bxl-twitter'></i></a>
+            <a href="#" style="--i:10;"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <a href="download.jpeg" class="btn" download="download.jpeg">Download CV</a>
     </div>
 
     <div class="home-img">
-      <img src="PicsArt_10-18-06.58.43.png" alt="Saad Hashmi" />
+        <img src="PicsArt_10-18-06.58.43.png" alt="pic">
     </div>
-  </section>
+   </section>
+    
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="script.js"></script>
-  <script>
-    // simple nav toggle for mobile
-    const toggle = document.querySelector(".nav-toggle");
-    const nav = document.querySelector(".navbar");
-    toggle.addEventListener("click", () => {
-      nav.classList.toggle("open");
-      toggle.querySelector("i").classList.toggle("bx-x");
-    });
-  </script>
+
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
 </body>
 </html>
